@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBank</title>
+</head>
+<body>
+    
+    <h1>DApp MyBank Demo</h1>
+    <br>
+    <h2>Total bank balance</h2>
+    <h3 id="_totalBankAmount"></h3>
+    <h2>My address</h2>
+    <h3 id="_address"></h3>
+    <h2>Account balance</h2>
+    <h3 id="_balance"></h3>
+    <form id="form">
+        <input type="text" id="input_deposit" placeholder="specify number">
+        <input type="submit" value="Deposit" id="deposit">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form id="form1">
+        <input type="text" id="input_withdraw" placeholder="specify number">
+        <input type="submit" value="Withdraw" id="withdraw">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <form id="form2">
+        <input type="text" id="input_address" placeholder="To: address">
+        <input type="text" id="input_transfer" placeholder="specify number">
+        <input type="submit" value="Transfer" id="transfer">
+    </form>
+
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="node_modules/web3/dist/web3.min.js" type="text/javascript"></script>
+    <script src="src/utils.js" type="text/javascript"></script>
+    <script src="src/index.js" type="text/javascript"></script>
+
+</body>
+</html>
