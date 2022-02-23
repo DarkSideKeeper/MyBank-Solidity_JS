@@ -1,6 +1,18 @@
 # MyBank-Solidity_JS
 demo web app with blockchain and javascript (examination)
 
+let's start
+==
+1. open App Ganache quickstart
+2. go to root folder:
+
+- run truffle deploy (to localhost)
+
+3. go to client folder:
+
+- run npm install or npm i web3 lite-server jquery
+- run npm start (start web)
+
 
 contract address:
 
